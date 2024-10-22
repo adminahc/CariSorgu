@@ -1,0 +1,1 @@
+SELECT STK as Kod, STA as İsim, KDV as KdvAlım, KDV as KdvSatış, STB as Birim, (SELECT Top 1 Barkod FROM BARKODLAR WHERE BARKODLAR.STOKREF = STOKGEN.REF) AS Barkod, SAT1_1 as Fiyat, '' as Terazi, SAT1_2 as Fiyat2, '' as FiyatEtiket, '' as Fiyat2Etiket FROM STOKGEN
