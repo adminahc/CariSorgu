@@ -1,0 +1,1 @@
+SELECT CRK as Kod,  'Müşteri' as KartTürü, STA as İsim, FIELD9 as Soyad, ADRES1 as Adres , SEMT, SEHIR as Şehir, VERGINO as VergiNo, VERGID as VergiDairesi, EPOSTA as Email, AKTEL+TEL as Telefon , CEPALAN+CEP as CepTel FROM CARIGEN
